@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 qrcode-generator = "4.1.9"
 web-view = "0.7.3"
+clap = { version = "4.4.8", features = ["derive"] }
