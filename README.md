@@ -1,15 +1,16 @@
 # qrcoder
 
 A CLI tool for generating QR code
+https://crates.io/crates/qrcoder
 
-# How to use
+## How to use
 
-# install
+### install
 
 Run the following command:
 `cargo install qrcoder`
 
-# run
+### run
 
 It generates a QR code corresponding to the argument string.
 `qrcoder example.com`
