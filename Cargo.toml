@@ -2,6 +2,13 @@
 name = "qrcoder"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "create QRcode from a string"
+readme = "README.md"
+homepage = "https://github.com/tenax66/qrcoder"
+repository = "https://github.com/tenax66/qrcoder"
+keywords = ["cli", "Rust"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
