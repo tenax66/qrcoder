@@ -1,6 +1,7 @@
 # qrcoder
 
-A CLI tool for generating QR code
+CLI tool that generates a QR code from a given string.
+
 https://crates.io/crates/qrcoder
 
 ## How to use

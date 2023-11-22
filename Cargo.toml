@@ -1,9 +1,9 @@
 [package]
 name = "qrcoder"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT"
-description = "create QRcode from a string"
+description = "CLI tool that generates a QR code from a given string."
 readme = "README.md"
 homepage = "https://github.com/tenax66/qrcoder"
 repository = "https://github.com/tenax66/qrcoder"
