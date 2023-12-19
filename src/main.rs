@@ -15,11 +15,12 @@ struct Args {
 fn main() {
     let args = Args::parse();
 
-    let result: String =
-        qrcode_generator::to_svg_to_string(args.word, QrCodeEcc::Low, 256, None::<&str>).unwrap();
-
     match &args.output {
         None => {
+            let result: String =
+                qrcode_generator::to_svg_to_string(args.word, QrCodeEcc::Low, 256, None::<&str>)
+                    .unwrap();
+
             // centering svg image
             let html = format!(
                 r#"
@@ -47,6 +48,7 @@ fn main() {
         }
         Some(output) => {
             // TODO: implement this option
+            qrcode_generator::to_png_to_file(args.word, QrCodeEcc::Low, 256, output).unwrap();
         }
     }
 }
