@@ -47,7 +47,6 @@ fn main() {
                 .unwrap();
         }
         Some(output) => {
-            // TODO: implement this option
             qrcode_generator::to_png_to_file(args.word, QrCodeEcc::Low, 256, output).unwrap();
         }
     }
