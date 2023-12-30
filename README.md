@@ -10,10 +10,20 @@ https://crates.io/crates/qrcoder
 
 Run the following command:
 
-`cargo install qrcoder`
+```
+cargo install qrcoder
+```
 
 ### run
 
 It generates a QR code corresponding to the argument string.
 
-`qrcoder example.com`
+```
+qrcoder example.com
+```
+
+See
+
+```
+qrcoder --help
+```
