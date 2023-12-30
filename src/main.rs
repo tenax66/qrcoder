@@ -8,7 +8,7 @@ struct Args {
     #[arg(help = "The word you want to encode")]
     word: String,
 
-    #[arg(short, long, help = "Output filename")]
+    #[arg(short, long, help = "Output filename (.png)")]
     output: Option<String>,
 }
 
